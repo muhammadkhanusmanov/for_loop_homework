@@ -7,4 +7,8 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return
+    a=[]
+    while A<=B:
+       a+=[A]
+       A+=1 
+    return a 
