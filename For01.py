@@ -9,4 +9,9 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+    i=0
+    a=[]
+    while i<n:
+        a=a+[i]
+        i+=1
+    return a 
