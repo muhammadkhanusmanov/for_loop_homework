@@ -6,4 +6,9 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    s=0
+    i=1
+    while i<N:
+        s+=i
+        i+=2
+    return s
